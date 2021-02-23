@@ -5,8 +5,6 @@
     <div v-html="heading" v-if="heading" />
     <div class="flex">
       <nested-form-view :child="child" class="mx-2" />
-      <nested-form-remove :child="child" :field="field" class="mx-2" />
-      <nested-form-add :field="field" class="mx-2" />
     </div>
   </div>
 </template>
